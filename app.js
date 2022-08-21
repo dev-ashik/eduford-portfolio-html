@@ -3,11 +3,11 @@ const xmark = document.querySelector("#xmark");
 const navLinks = document.querySelector(".nav-links");
 
 bars.onclick = () => {
-    navLinks.classList.toggle("active");
-    bars.classList.add("none");
-}
+  navLinks.classList.toggle("active");
+  bars.classList.add("none");
+};
 
 xmark.onclick = () => {
-    navLinks.classList.remove("active"); 
-    bars.classList.remove("none");
-}
+  navLinks.classList.remove("active");
+  bars.classList.remove("none");
+};
