@@ -283,7 +283,24 @@ h3 {
     color: #f44336;
 }
 
+/*  call to action  */
+.cta {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+}
 
+.cta h1 {
+    max-width: 40rem;
+    margin: 1.5rem auto;
+    color: #fff;
+    padding: 0;
+}
 
 
 
@@ -338,5 +355,9 @@ h3 {
     .testimonial-col img {
         margin-left: 0px;
         margin-right: 15px;
+    }
+
+    .cta h1 {
+        font-size: 24px;
     }
 }
